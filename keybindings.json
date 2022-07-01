@@ -1,13 +1,11 @@
-// Place your key bindings in this file to override the defaults
+// Place your key bindings in this file to override the defaultsauto[]
 [
-  {
-    "key": "ctrl+shift+v",
-    "command": "pasteAndIndent.action",
-    "when": "editorTextFocus && !editorReadonly"
-  },
-  {
-    "key": "cmd+shift+v",
-    "command": "pasteAndIndent.action",
-    "when": "editorTextFocus && !editorReadonly"
-  }
+    {
+        "key": "cmd+k cmd+u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "cmd+k cmd+l",
+        "command": "editor.action.transformToLowercase"
+    }
 ]

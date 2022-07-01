@@ -69,3 +69,9 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+
+export SNOWFLAKE_USER=alice
+export SNOWFLAKE_PWD=5f2mqq2Z3!
+export SNOWFLAKE_ACCOUNT=st36102.us-east-1
+export SNOWFLAKE_WH=ANALYSTS
+export SNOWFLAKE_ROLE=TECH
